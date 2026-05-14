@@ -1,0 +1,57 @@
+services:
+  # 1. Node.js Backend (JWT + MongoDB)
+  - type: web
+    name: clarity-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: INTERNAL_API_KEY
+        sync: false
+      - key: BOOTSTRAP_SECRET
+        sync: false
+
+  # 2. Next.js Frontend
+  - type: web
+    name: clarity-frontend
+    env: node
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    plan: free
+    envVars:
+      - key: NEXT_PUBLIC_BACKEND_URL
+        sync: false
+      - key: NEXT_PUBLIC_PYTHON_API_URL
+        sync: false
+      - key: NEXT_PUBLIC_PYTHON_API_KEY
+        sync: false
+
+  # 3. Python AI API (Dockerfile installs tesseract + OpenCV system libs; native pip-only builds fail without them)
+  - type: web
+    name: clarity-python-api
+    runtime: docker
+    dockerfilePath: ass/Dockerfile
+    dockerContext: ass
+    plan: free
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: INTERNAL_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false

@@ -1,0 +1,13 @@
+const express = require('express');
+const { startAttempt, saveResponse, submitAttempt, addViolation, getAttempts, getAttemptById, getUserAttempts } = require('../controllers/attemptController');
+const { protect } = require('../middlewares/authMiddleware');
+const router = express.Router();
+router.use(protect);
+router.get('/', getAttempts);
+router.get('/my', getUserAttempts);
+router.post('/start/:testId', startAttempt);
+router.get('/:id', getAttemptById);
+router.post('/:id/response', saveResponse);
+router.post('/:id/submit', submitAttempt);
+router.post('/:id/violation', addViolation);
+module.exports = router;

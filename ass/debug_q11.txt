@@ -1,0 +1,251 @@
+NEET Biology: 50-QuesƟon Comprehensive Bank 
+Part 1: Diversity & Structural OrganizaƟon 
+1. IdenƟfy the 'A' and 'B' in the given diagram of a Bacteriophage. 
+A) A: Head, B: Sheath B) A: Collar, B: Tail ﬁbers C) A: Capsid, B: DNA D) A: Tail, B: Pin Answer: A | 
+SoluƟon: The bacteriophage consists of a protein head containing geneƟc material and a hollow 
+sheath for DNA injecƟon. 
+2. Which ﬂoral symmetry is represented by the Mustard ﬂower in the diagram? 
+ 
+GeƩy Images 
+A) Asymmetric B) Zygomorphic C) AcƟnomorphic D) Bilateral Answer: C | SoluƟon: Mustard 
+(Brassicaceae) ﬂowers can be divided into equal halves by any radial plane passing through the center. 
+3. In the T.S. of a Dicot Root, idenƟfy the layer labeled 'X' that iniƟates lateral roots. 
+A) Endodermis B) Cortex C) Pericycle D) Epidermis Answer: C | SoluƟon: Lateral roots and vascular 
+cambium during secondary growth originate from the pericycle cells. 
+4. IdenƟfy the type of Epithelium shown in the image, found in the lining of the stomach. 
+ 
+GeƩy Images 
+A) Squamous B) Cuboidal C) Columnar D) Ciliated Answer: C | SoluƟon: Columnar epithelium consists 
+of tall, slender cells with nuclei at the base, specialized for secreƟon and absorpƟon. 
+5. Look at the diagram of the Mitochondria. Where is the Electron Transport System (ETS) located? 
+A) Outer membrane B) Matrix C) Inner membrane (Cristae) D) Intermembrane space Answer: C | 
+SoluƟon: The inner membrane contains the respiratory chain enzymes and ATP synthase complexes. 
+ 
+Part 2: Plant & Human Physiology 
+6. IdenƟfy the 'Z-Scheme' molecule 'P' that acts as the primary electron acceptor from PS II. 
+
+A) Plastocyanin B) PheophyƟn C) Ferredoxin D) Cytochrome Answer: B | SoluƟon: In non-cyclic 
+photophosphorylaƟon, PheophyƟn is the ﬁrst molecule to accept electrons from the excited . 
+7. In the diagram of the Human Alveolus, what is the layer 'S' composed of? 
+ 
+GeƩy Images 
+A) Simple Cuboidal Epithelium B) Simple Squamous Epithelium C) StraƟﬁed Squamous Epithelium D) 
+Ciliated Epithelium Answer: B | SoluƟon: The diﬀusion membrane is made of thin squamous 
+epithelium to facilitate rapid gas exchange. 
+8. IdenƟfy the 'P-wave' in the ECG. What does it represent? 
+A) Ventricular contracƟon B) Atrial DepolarizaƟon C) Ventricular RepolarizaƟon D) Atrial RepolarizaƟon 
+Answer: B | SoluƟon: The P-wave represents the electrical excitaƟon or depolarizaƟon of the atria. 
+9. In the diagram of the Nephron, where does the 'Counter-Current Mechanism' primarily occur? 
+A) PCT B) DCT C) Loop of Henle and Vasa Recta D) Bowman's Capsule Answer: C | SoluƟon: The 
+proximity and opposite ﬂow in the Loop of Henle and Vasa Recta maintain the osmolarity gradient. 
+10. IdenƟfy the joint 'J' shown in the diagram of the human shoulder. 
+ 
+ShuƩerstock 
+Explore 
+A) Hinge joint B) Pivot joint C) Ball and Socket joint D) Gliding joint Answer: C | SoluƟon: The shoulder 
+joint allows movement in mulƟple planes, characterisƟc of a ball and socket joint. 
+ 
+Part 3: GeneƟcs & Biotechnology 
+11. In the pBR322 vector, idenƟfy the site used for 'InserƟonal InacƟvaƟon' by BamHI. 
+
+A) B) C) D) Answer: B | SoluƟon: BamHI is located within the tetracycline resistance gene (). InserƟng 
+a gene here makes the bacteria sensiƟve to tetracycline. 
+12. Observe the Pedigree Chart. What is the most likely mode of inheritance? 
+A) Autosomal Dominant B) Autosomal Recessive C) X-linked Recessive D) Y-linked Answer: C | SoluƟon: 
+X-linked recessive traits oŌen show criss-cross inheritance (grandfather to grandson via carrier 
+daughter). 
+13. In Gel Electrophoresis, DNA fragments move towards the posiƟve electrode (Anode) because: 
+ 
+ShuƩerstock 
+A) DNA is posiƟvely charged B) DNA is negaƟvely charged C) DNA is hydrophobic D) DNA is larger in 
+size Answer: B | SoluƟon: The phosphate groups in the DNA backbone give it a net negaƟve charge. 
+14. IdenƟfy the 'A' and 'B' strands in the DNA ReplicaƟon Fork. 
+ 
+ShuƩerstock 
+A) A: Leading, B: Lagging B) A: Lagging, B: Leading C) A: Template, B: Coding D) A: Sense, B: AnƟsense 
+Answer: A | SoluƟon: The leading strand is synthesized conƟnuously in the direcƟon. 
+15. Which enzyme is used to cut DNA at speciﬁc palindromic sequences? 
+A) DNA Ligase B) DNA Polymerase C) RestricƟon Endonuclease D) RNA Primase Answer: C | SoluƟon: 
+These "molecular scissors" recognize and cut speciﬁc sequences within the DNA. 
+ 
+Part 4: Ecology & ReproducƟon 
+16. IdenƟfy the type of Age Pyramid with a broad base and narrow top. 
+
+ 
+ShuƩerstock 
+Explore 
+A) Stable B) Declining C) Expanding D) Zero Growth Answer: C | SoluƟon: A broad base indicates a 
+high percentage of young individuals, leading to rapid populaƟon growth. 
+17. In the diagram of the T.S. of Anther, which layer is responsible for dehiscence? 
+A) Epidermis B) Endothecium C) Middle layers D) Tapetum Answer: B | SoluƟon: The hygroscopic 
+nature of the endothecium helps in the bursƟng of the anther to release pollen. 
+18. Look at the Carbon Cycle diagram. What process returns to the atmosphere? 
+ 
+ShuƩerstock 
+A) Photosynthesis B) RespiraƟon and CombusƟon C) SedimentaƟon D) CalciﬁcaƟon Answer: B | 
+SoluƟon: Both the burning of fossil fuels and the breathing of organisms release carbon back into the 
+air. 
+19. IdenƟfy the "SƟrred-tank Bioreactor" part that controls foam. 
+ 
+ShuƩerstock 
+Explore 
+
+A) Agitator B) Sparger C) Foam breaker D) pH controller Answer: C | SoluƟon: The foam breaker 
+prevents the build-up of foam which can interfere with oxygen transfer and culture health. 
+20. In the Double CirculaƟon diagram, which vessel carries oxygenated blood to the body? 
+ 
+A) Pulmonary Artery B) Pulmonary Vein C) Systemic Aorta D) Vena Cava Answer: C | SoluƟon: 
+The aorta carries oxygen-rich blood from the leŌ ventricle to all body parts. 
+ 
+Part 4: EvoluƟon & Human Welfare (21–30) 
+21. IdenƟfy the 'A' and 'B' in the diagram of the Miller-Urey Experiment. 
+ 
+A) A: Spark discharge, B: Water containing organic compounds B) A: Vacuum pump, B: Boiling 
+water C) A: Condenser, B: Gaseous mixture D) A: Electrode, B: Cold water Answer: A | SoluƟon: 
+Miller created electric discharges in a closed ﬂask containing and water vapor at 800°C to 
+simulate early earth condiƟons. 
+22. Observe the diagrams of the Forelimbs of a Whale, Bat, and Cheetah. What do they 
+represent? 
+A) Analogous organs B) Homologous organs C) VesƟgial organs D) Convergent evoluƟon 
+Answer: B | SoluƟon: Homologous organs have the same anatomical structure but perform 
+diﬀerent funcƟons, indicaƟng common ancestry (Divergent EvoluƟon). 
+23. In the diagram of the 'Stannius Corpuscle' or 'Adrenal Gland', idenƟfy the region 'R' that 
+secretes CorƟsol. 
+ 
+
+GeƩy Images 
+A) Zona Glomerulosa B) Zona Fasciculata C) Zona ReƟcularis D) Adrenal Medulla Answer: B | 
+SoluƟon: The middle layer, Zona Fasciculata, is primarily responsible for the secreƟon of 
+glucocorƟcoids like corƟsol. 
+24. IdenƟfy the 'A' and 'B' in the Chemical Structure of Morphine. 
+ 
+GeƩy Images 
+Explore 
+A) A: Hydroxyl group, B: Methyl group B) A: Acetyl group, B: Nitrogen C) A: Phenolic group, B: 
+Secondary amine D) A: Opium poppy, B: Cannabis Answer: A | SoluƟon: Morphine is a potent 
+analgesic extracted from the latex of Papaver somniferum. 
+25. Look at the diagram of the 'Large-scale Sewage Treatment Plant'. In which tank is 'Flocs' 
+formed? 
+ 
+A) Primary SeƩling Tank B) AeraƟon Tank C) Anaerobic Sludge Digester D) Secondary SeƩling Tank 
+Answer: B | SoluƟon: Flocs (masses of bacteria associated with fungal ﬁlaments) form in the aeraƟon 
+tank during secondary treatment to reduce BOD. 
+26. IdenƟfy the "Struggle for Existence" in the Darwinian theory diagram. A) OverproducƟon 
+B) VariaƟons C) Natural SelecƟon D) Survival of the ﬁƩest Answer: C | SoluƟon: Natural 
+selecƟon is the process where individuals with favorable variaƟons survive and reproduce. 
+27. In the diagram of the 'Baculovirus', what is their role in Integrated Pest Management 
+(IPM)? A) Broad-spectrum bioinsecƟcide B) Species-speciﬁc, narrow-spectrum bioinsecƟcide 
+C) Non-pathogenic to insects D) Chemical pesƟcide enhancer Answer: B | SoluƟon: 
+Baculoviruses (Genus Nucleopolyhedrovirus) are excellent for species-speciﬁc applicaƟons 
+with no negaƟve impacts on non-target organisms. 
+28. IdenƟfy the 'A' and 'B' in the structure of an AnƟbody molecule. A) A: AnƟgen binding 
+site, B: Disulﬁde bond B) A: Light chain, B: Heavy chain C) A: Variable region, B: Constant region 
+D) All of the above Answer: D | SoluƟon: All these labels correctly describe the structure of 
+an immunoglobulin. 
+29. Observe the diagram of 'AdapƟve RadiaƟon' in Darwin’s Finches. What was the original 
+form? 
+
+ 
+A) InsecƟvorous B) Seed-eaƟng C) Cactus-eaƟng D) Fruit-eaƟng Answer: B | SoluƟon: From 
+the original seed-eaƟng features, many other forms with altered beaks arose, enabling them 
+to become insecƟvorous or vegetarian ﬁnches. 
+30. In the 'Primary Succession on Rocks' diagram, which organism acts as the pioneer 
+species? A) Mosses B) Lichens C) Grasses D) Higher plants Answer: B | SoluƟon: Lichens are 
+able to secrete acids to dissolve rocks, helping in weathering and soil formaƟon. 
+ 
+Part 5: Biomolecules & Cell Division (31–40) 
+31. IdenƟfy the 'A' in the given graph of 'EnzymaƟc AcƟvity vs pH'. 
+A) DenaturaƟon point B) OpƟmum pH C) Minimum pH D) AcƟvaƟon energy Answer: B | 
+SoluƟon: Enzymes show highest acƟvity at a speciﬁc "OpƟmum" pH; acƟvity declines above 
+and below this value. 
+32. In the diagram of the 'Cell Membrane', idenƟfy the 'Integral Protein'. 
+ 
+A) Protein on the surface B) Protein spanning the enƟre bilayer C) Peripheral protein D) 
+Carbohydrate chain Answer: B | SoluƟon: Integral proteins are parƟally or totally buried in the 
+membrane. 
+33. IdenƟfy the 'Chiasmata' in the diagram of Meiosis I. 
+ 
+
+A) Leptotene B) Zygotene C) Pachytene D) Diplotene Answer: D | SoluƟon: The dissoluƟon of 
+the synaptonemal complex and the X-shaped structures (Chiasmata) are visible in Diplotene. 
+34. Observe the 'Watson-Crick Model of DNA'. What is the distance of one full turn? 
+ 
+A) 2.0 nm B) 0.34 nm C) 3.4 nm D) 20 nm Answer: C | SoluƟon: One full turn (pitch) of the B-
+DNA helix is 3.4 nm () and contains 10 base pairs. 
+35. In the diagram of 'CompeƟƟve InhibiƟon', which molecule binds to the acƟve site of the 
+enzyme? A) Substrate B) Inhibitor C) Co-factor D) Product Answer: B | SoluƟon: The inhibitor 
+competes with the substrate for the acƟve site because it closely resembles the substrate in 
+structure. 
+36. IdenƟfy the 'Anaphase II' stage in the provided cell division diagram. 
+ 
+A) SeparaƟon of homologous chromosomes B) Spliƫng of centromeres and separaƟon of 
+sister chromaƟds C) Chromosomes align at equator D) Reappearance of nucleolus Answer: B 
+| SoluƟon: In Anaphase II, sister chromaƟds move toward opposite poles aŌer the centromere 
+splits. 
+37. In the 'Amino Acid' structure, what does 'R' represent? 
+ 
+A) Carboxyl group B) Amino group C) Variable side chain D) Hydrogen atom Answer: C | 
+SoluƟon: The nature of the R-group determines the speciﬁc properƟes of the amino acid (e.g., 
+Glycine, Alanine). 
+38. Look at the 'Secondary Structure of Protein'. What stabilizes the Alpha-helix? 
+
+ 
+A) PepƟde bonds B) Hydrogen bonds C) Ionic bonds D) Disulﬁde bridges Answer: B | SoluƟon: 
+Intramolecular hydrogen bonding between the and groups stabilizes the helical structure. 
+39. IdenƟfy the 'Phosphodiester Bond' in the DinucleoƟde diagram. 
+A) Between 1' carbon and base B) Between 3' carbon of one sugar and 5' carbon of the next 
+C) Between two nitrogenous bases D) Between the sugar and the amino group Answer: B | 
+SoluƟon: NucleoƟdes are linked by 3'-5' phosphodiester bonds to form a polynucleoƟde chain. 
+40. In the 'Lock and Key Hypothesis' diagram, what does the 'Key' represent? A) Enzyme B) 
+Substrate C) Co-enzyme D) AcƟve site Answer: B | SoluƟon: The substrate (key) ﬁts into the 
+speciﬁc acƟve site (lock) of the enzyme. 
+ 
+Part 6: Animal Kingdom & Plant Growth (41–50) 
+41. IdenƟfy the 'Water Vascular System' in the diagram of a Starﬁsh. 
+ 
+ShuƩerstock 
+A) DigesƟon B) LocomoƟon and Food capture C) ExcreƟon D) RespiraƟon only Answer: B | 
+SoluƟon: This system is characterisƟc of Echinoderms and helps in locomoƟon, capture, and 
+transport of food. 
+42. In the diagram of 'Cnidoblast' (Nematocyst), what is its primary funcƟon? 
+A) ReproducƟon B) Anchorage, Defense, and Prey capture C) DigesƟon D) Water circulaƟon 
+Answer: B | SoluƟon: Cnidarians use these sƟnging cells for paralyzing prey and protecƟon. 
+43. IdenƟfy the 'A' and 'B' in the diagram of the 'Closed Circulatory System' of an Annelid. A) 
+A: Dorsal vessel, B: Ventral vessel B) A: Heart, B: Hemocoel C) A: Open sinus, B: Gills D) A: 
+Capillary, B: OsƟa Answer: A | SoluƟon: Annelids like Earthworms possess a closed system 
+with disƟnct dorsal and ventral blood vessels. 
+44. Look at the 'Sigmoid Growth Curve'. In which phase is growth most rapid? 
+A) Lag phase B) Log (ExponenƟal) phase C) StaƟonary phase D) Decline phase Answer: B | 
+SoluƟon: During the log phase, the organism grows at an exponenƟal rate due to abundant 
+resources. 
+
+45. IdenƟfy the plant hormone responsible for 'BolƟng' in the diagram of a cabbage plant. 
+A) Auxin B) Gibberellin C) Cytokinin D) Ethylene Answer: B | SoluƟon: Gibberellins promote 
+internode elongaƟon just prior to ﬂowering (bolƟng) in roseƩe plants. 
+46. In the 'Phyllotaxy' diagram, idenƟfy the 'Whorled' arrangement. 
+A) Single leaf at each node B) Pair of leaves at each node C) More than two leaves at a node 
+D) Leaves in a spiral Answer: C | SoluƟon: If more than two leaves arise at a node and form a 
+circle, it is called whorled (e.g., Alstonia). 
+47. IdenƟfy the 'Pneumatophores' in the diagram of a Mangrove tree. 
+A) Storage roots B) Respiratory roots C) Prop roots D) SƟlt roots Answer: B | SoluƟon: In 
+swampy areas, roots grow verƟcally upwards to get oxygen for respiraƟon. 
+48. In the 'T.S. of CarƟlage' diagram, idenƟfy the cells labeled 'C'. 
+A) Osteocytes B) Chondrocytes C) Fibroblasts D) Mast cells Answer: B | SoluƟon: The 
+intercellular material of carƟlage is solid and pliable, and the cells (chondrocytes) are enclosed 
+in small caviƟes. 
+49. IdenƟfy the 'Flame Cells' in the diagram of a Platyhelminth (Tapeworm). 
+ 
+ShuƩerstock 
+A) RespiraƟon B) DigesƟon C) OsmoregulaƟon and ExcreƟon D) Nervous coordinaƟon Answer: 
+C | SoluƟon: Specialized cells called ﬂame cells help in osmoregulaƟon and excreƟon in 
+ﬂatworms. 
+50. Look at the 'Photoperiodism' diagram. What deﬁnes a 'Short Day Plant'? 
+ 
+ShuƩerstock 
+Explore 
+A) Flowers when light exceeds criƟcal duraƟon B) Flowers when light is less than criƟcal 
+duraƟon C) Flowering is independent of light D) Flowers only in total darkness Answer: B | 
+SoluƟon: Short-day plants require a period of light shorter than a criƟcal day length to iniƟate 
+ﬂowering. 
+ 
+

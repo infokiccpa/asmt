@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #111827;
+  --primary: #F97316;
+  --primary-light: #FB923C;
+  --primary-dark: #EA580C;
+  --surface: #FAFAFA;
+  --border: #F1F0EF;
+  --muted: #6B7280;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Card / Panel ─────────────────────────────── */
+.card {
+  background: #FFFFFF;
+  border: 1px solid #F1F0EF;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px -5px rgba(0,0,0,0.1);
+}
+
+/* ─── Sidebar ───────────────────────────────────── */
+.sidebar {
+  background: #FFFFFF;
+  border-right: 1px solid #F1F0EF;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.04);
+}
+
+/* ─── Primary Button ─────────────────────────────  */
+.btn-primary {
+  background: linear-gradient(135deg, #F97316, #EA580C);
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(249,115,22,0.3);
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px rgba(249,115,22,0.4);
+}
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* ─── Orange Badge ───────────────────────────────── */
+.badge-orange {
+  background: #FFF7ED;
+  color: #EA580C;
+  border: 1px solid #FED7AA;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ─── Input ──────────────────────────────────────── */
+.input-field {
+  width: 100%;
+  background: #FAFAFA;
+  border: 1.5px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111827;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+.input-field::placeholder { color: #9CA3AF; }
+.input-field:focus {
+  border-color: #F97316;
+  box-shadow: 0 0 0 3px rgba(249,115,22,0.12);
+}
+
+/* ─── Animations ─────────────────────────────────── */
+@keyframes fadeInUp {
+  0%   { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-12px); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes scaleIn {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in-up { animation: fadeInUp 0.55s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-fade-in    { animation: fadeIn 0.4s ease both; }
+.animate-float      { animation: float 6s ease-in-out infinite; }
+.animate-scale-in   { animation: scaleIn 0.4s cubic-bezier(0.16,1,0.3,1) both; }
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* ─── Orange gradient text ───────────────────────── */
+.text-orange-gradient {
+  background: linear-gradient(135deg, #F97316, #EA580C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Section dividers ────────────────────────────── */
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #9CA3AF;
+}
+
+/* ─── Stat card accent bar ────────────────────────── */
+.accent-bar {
+  width: 4px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #F97316, #EA580C);
+}
+
+/* ─── Scroll Reveal ───────────────────────────────── */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─── Glass Panel ───────────────────────────────── */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* ─── Fluid card hover ────────────────────────────── */
+.card-fluid {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.card-fluid:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.10);
+}
+
+/* ─── 3D tilt card ────────────────────────────────── */
+.card-tilt {
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.card-tilt:hover {
+  transform: perspective(900px) rotateX(-4deg) rotateY(3deg) translateY(-5px);
+  box-shadow: 0 28px 56px rgba(249, 115, 22, 0.12);
+}
+
+/* ─── Feature visual panel hover ─────────────────── */
+.panel-hover {
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.panel-hover:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.1);
+}
+
+/* ─── Stagger delays ──────────────────────────────── */
+.delay-75  { transition-delay: 75ms;  }
+.delay-150 { transition-delay: 150ms; }
+.delay-225 { transition-delay: 225ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+
+/* ─── Animate fade-in-up (load-time) ─────────────── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.animate-fade-in-up.delay-100 { animation-delay: 0.10s; }
+.animate-fade-in-up.delay-200 { animation-delay: 0.20s; }
+.animate-fade-in-up.delay-300 { animation-delay: 0.30s; }
+
+/* ─── Role card hover shadows ─────────────────────── */
+.role-card {
+  transition: transform 0.3s cubic-bezier(0.22,1,0.36,1),
+              box-shadow 0.3s cubic-bezier(0.22,1,0.36,1);
+}
+.role-card:hover { transform: translateY(-4px); }
+.role-card-emerald:hover { box-shadow: 0 16px 40px rgba(16,185,129,0.18); }
+.role-card-orange:hover  { box-shadow: 0 16px 40px rgba(249,115,22,0.18);  }
+.role-card-blue:hover    { box-shadow: 0 16px 40px rgba(59,130,246,0.18);  }
