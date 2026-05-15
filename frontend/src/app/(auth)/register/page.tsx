@@ -31,9 +31,16 @@ export default function RegisterPage() {
         alert('Account created! Please login.');
         router.push('/login');
       }
-    } catch (err: any) {
-      const msg = err.response?.data?.message || 'Registration failed. Please try again.';
-      setErrorMsg(msg);
+    } catch (err: unknown) {
+      const ax = err as { response?: { data?: { message?: string }; status?: number }; message?: string; code?: string };
+      if (!ax.response) {
+        const base = API_BASE_URL || '(backend URL not configured at build time)';
+        setErrorMsg(
+          `Cannot reach the API (${base}). Check NEXT_PUBLIC_BACKEND_URL on Render, CORS ALLOWED_ORIGINS on the backend, and that the backend service is running.`
+        );
+      } else {
+        setErrorMsg(ax.response.data?.message || `Registration failed (${ax.response.status ?? 'error'}).`);
+      }
       setIsSubmitting(false);
     }
   };
