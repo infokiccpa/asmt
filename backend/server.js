@@ -9,10 +9,27 @@ const app = express();
 const mongoose = require('mongoose');
 const server = http.createServer(app);
 
+function normalizeMongoUri(raw) {
+  if (raw == null || typeof raw !== 'string') return '';
+  let s = raw.trim();
+  if ((s.startsWith('"') && s.endsWith('"')) || (s.startsWith("'") && s.endsWith("'"))) {
+    s = s.slice(1, -1).trim();
+  }
+  return s;
+}
+
+const mongoUri = normalizeMongoUri(process.env.MONGODB_URI || process.env.MONGO_URI);
+if (!mongoUri.startsWith('mongodb://') && !mongoUri.startsWith('mongodb+srv://')) {
+  console.error('❌ MongoDB: MONGODB_URI (or MONGO_URI) is missing or invalid.');
+  console.error('   It must start with mongodb:// or mongodb+srv:// (Atlas “Drivers” connection string).');
+  console.error('   In Render: Web Service → Environment → set secret MONGODB_URI with no extra quotes or spaces.');
+  process.exit(1);
+}
+
 // Essential for rate limiting behind Render's load balancer
 app.set('trust proxy', 1);
 
-mongoose.connect(process.env.MONGODB_URI || process.env.MONGO_URI)
+mongoose.connect(mongoUri)
   .then(() => console.log('✅ MongoDB Connected successfully'))
   .catch(err => {
     console.error('❌ MongoDB Connection Error:', err.message);

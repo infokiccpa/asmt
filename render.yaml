@@ -8,6 +8,8 @@ services:
     startCommand: node server.js
     plan: free
     envVars:
+      - key: NODE_VERSION
+        value: "20"
       - key: NODE_ENV
         value: production
       # Do not set PORT — Render injects it; the app must listen on process.env.PORT
@@ -34,6 +36,8 @@ services:
     startCommand: npm run start
     plan: free
     envVars:
+      - key: NODE_VERSION
+        value: "20"
       - key: NEXT_PUBLIC_BACKEND_URL
         sync: false
       - key: NEXT_PUBLIC_PYTHON_API_URL
