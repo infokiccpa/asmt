@@ -2,7 +2,7 @@ services:
   # 1. Node.js Backend (JWT + MongoDB)
   - type: web
     name: clarity-backend
-    env: node
+    runtime: node
     rootDir: backend
     buildCommand: npm install
     startCommand: node server.js
@@ -10,8 +10,7 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PORT
-        value: 5000
+      # Do not set PORT — Render injects it; the app must listen on process.env.PORT
       - key: MONGODB_URI
         sync: false
       - key: JWT_SECRET
@@ -28,9 +27,10 @@ services:
   # 2. Next.js Frontend
   - type: web
     name: clarity-frontend
-    env: node
+    runtime: node
     rootDir: frontend
-    buildCommand: npm install && npm run build
+    # Free tier has limited RAM; cap Node heap so install/build are less likely to OOM-kill
+    buildCommand: NODE_OPTIONS=--max-old-space-size=450 npm install && NODE_OPTIONS=--max-old-space-size=450 npm run build
     startCommand: npm run start
     plan: free
     envVars:

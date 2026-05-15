@@ -19,10 +19,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
-# Pre-download YOLO models so the service starts without internet access
-RUN python -c "from ultralytics import YOLO; YOLO('yolov8n-pose.pt'); YOLO('yolov8n.pt')"
+# Do not pre-download YOLO weights here — Render free-tier Docker builds often OOM or time out.
+# Models download on first use at runtime (needs outbound network once).
 
-# Set default port
+# Set default port (Render overrides with $PORT at runtime)
 ENV PORT=8000
 
 # Run the API
